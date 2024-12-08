@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const Elements_bar = styled.div`
     display: flex;
+    margin-left: 0;
+    width: 380px;
     margin-top: 10px;
     justify-content: space-between;
     font-weight: bold;
-    width: 380px;
     font-size: 15px;
 
     img{

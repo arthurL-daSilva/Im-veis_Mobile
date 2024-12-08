@@ -19,7 +19,7 @@ export const Container = styled.div`
     button{
         width: 345px;
         height: 36px;
-        
+        color: #7B2CBF;
         background-color: transparent;
         border-color: #7B2CBF;
         border-radius: 8px;
