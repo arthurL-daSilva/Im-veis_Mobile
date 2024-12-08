@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Elements_bar = styled.div`
     display: flex;
     margin-top: 10px;
+    align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    width: 380px;
+    width: 360px;
     font-size: 15px;
 
     img{

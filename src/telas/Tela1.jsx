@@ -3,6 +3,7 @@ import Filtros from '../components/Filtros'
 import Alerta from '../components/Alerta'
 import Status_Bar from '../components/Status_bar'
 import Menu from '../components/Menu'
+import './index.css'
 
 function Home(){
 

@@ -11,7 +11,6 @@ export const Bar = styled.div`
     justify-content: center;
     gap: 50px;
     position: absolute;
-    left: -5px;
     right: 0;
     background-color: #7B2CBF;
     width: 100%;
@@ -26,7 +25,6 @@ export const Home_bar = styled.div`
     align-items: end;
     padding-bottom: 10px;
     position: absolute;
-    left: -5px;
     right: 0;
     width: 100%;
     height: 37px;

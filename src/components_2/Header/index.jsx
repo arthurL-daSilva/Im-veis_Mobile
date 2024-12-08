@@ -5,7 +5,9 @@ function Header(){
 
     return(
     <Top>
+        <a href="https://www.youtube.com/">
         <img src={voltar} alt="voltar" />
+        </a>
         <p>Para começarmos, precisamos de alguns dados</p>
     </Top>
     )

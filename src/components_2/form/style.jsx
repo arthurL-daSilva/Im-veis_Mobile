@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Formulario = styled.form`
     display: flex;
+    //justify-content: center;
     flex-direction: column;
     width: 345px;
     height: 524px;
@@ -31,6 +32,7 @@ export const Formulario = styled.form`
         margin-left: 0;
         width: 345px;
         height: 60px;
+        overflow: visible;
     }
 
     select{
