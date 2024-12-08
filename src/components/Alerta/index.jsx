@@ -1,5 +1,6 @@
 import { Container } from './style'
 import img_alert from '../../images/alerta.png'
+import { Link } from 'react-router-dom'
 
 function Alerta(){
 
@@ -9,7 +10,9 @@ function Alerta(){
             <div>
                 <p>Você não tem nenhum imóvel cadastrado. Que tal cadastrar agora?</p>
             </div>
+            <Link to={'/Tela2'}>
             <button>Cadastrar meu primeiro imóvel</button>
+            </Link>
         </Container>
     )
 }

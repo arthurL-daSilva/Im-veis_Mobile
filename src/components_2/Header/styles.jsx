@@ -6,7 +6,7 @@ export const Top = styled.div`
     justify-content: space-between;
     width: 345px;
     height: 104px;
-    margin-top: 43px;
+    margin-top: 40px;
     font-size: 20px;
     margin-left: 10px;
     

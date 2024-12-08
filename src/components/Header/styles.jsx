@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Top = styled.div`
-    margin-top: 30px;
+    margin-top: 40px;
 `
 
 export const Cabeçalho = styled.div`
@@ -15,6 +15,7 @@ export const Cabeçalho = styled.div`
 
 export const Img_voltar = styled.img`
     object-fit: cover;
+    margin-left: 22px;
     width: 32px;
     height: 32px;
 `
@@ -28,6 +29,12 @@ export const Cadastrar = styled.button`
     font-weight: 700;
     cursor: pointer;
 
+    a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
     span{
         font-size: 16px;
     }

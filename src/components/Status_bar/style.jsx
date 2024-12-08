@@ -6,7 +6,7 @@ export const Elements_bar = styled.div`
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    width: 360px;
+    width: 370px;
     font-size: 15px;
 
     img{
