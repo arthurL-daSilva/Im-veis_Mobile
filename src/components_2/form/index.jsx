@@ -1,4 +1,4 @@
-import { Teste, Teste2, Formulario, Description, Name, Max_Len, Addr, Num, Comp, City, City_UF } from './style'
+import { Formulario, Description, Name, Max_Len, Addr, Num, Comp, City, City_UF } from './style'
 import { useState } from 'react'
 
 function Form(){  
