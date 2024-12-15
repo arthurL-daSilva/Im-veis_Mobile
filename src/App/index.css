@@ -1,0 +1,7 @@
+div{
+    /*Apenas para tirar o scroll da pagina*/
+    overflow: hidden;
+    margin: 0;
+}
+   
+    
