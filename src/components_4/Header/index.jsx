@@ -10,6 +10,7 @@ function Header(){
             <img src={voltar} alt="voltar" />
         </Link>
         <p>Defina as comodidades e permissões do seu Poundsflats</p>
+        <h3>Comodidades</h3>
     </Top>
     )
 }
