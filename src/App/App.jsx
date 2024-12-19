@@ -5,6 +5,8 @@ import Tela3 from './Telas/Tela3.jsx'
 import Tela4 from './Telas/Tela4.jsx'
 import Tela5 from './Telas/Tela5.jsx'
 import Tela6 from './Telas/Tela6.jsx'
+import Tela7 from './Telas/Tela7.jsx'
+
 
 function App(){
     return(
@@ -18,6 +20,7 @@ function App(){
                 <Route path="/tela4" element={<Tela4/>}/>
                 <Route path="/tela5" element={<Tela5/>}/>
                 <Route path="/tela6" element={<Tela6/>}/>
+                <Route path="/tela7" element={<Tela7/>}/>
                 <Route path='*' element={<h1>Notfound</h1>} />
             </Routes>
         </BrowserRouter>
