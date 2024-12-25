@@ -4,7 +4,7 @@ function Action(){
 
     return(
         <Action_Btn>
-            <Link to={'/tela8'}>
+            <Link to={'/tela9'}>
             <button>Continuar</button>
             </Link>
         </Action_Btn>
