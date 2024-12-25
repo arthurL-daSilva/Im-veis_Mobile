@@ -8,26 +8,26 @@ import Det5 from "../../../images/Det_toilet.png"
 function Home(){
     return(
         <Boxes>
-            <button>
+            <div>
                 <img src={Det1} alt="quarto" />
                 <p>Quarto mobilado</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img src={Det5} alt="banheiro" />
                 <p>Banheiro equipado</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img src={Det2} alt="Talheres" />
                 <p>Cozinha Equipada</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img src={Det3} alt="Casa" />
                 <p>Sala Equipada</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img src={Det4} alt="Area de serviço" />
                 <p>Área de serviço</p>
-            </button>
+            </div>
         </Boxes>
     )
 }
