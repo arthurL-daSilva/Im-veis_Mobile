@@ -4,6 +4,7 @@ import Room_Desc from "./Picture"
 import Details from "./Details"
 import Guest from "./Guest"
 import Form from "./Form"
+import Itens from "./Itens"
 
 function Home(){
     return(
@@ -13,6 +14,7 @@ function Home(){
             <Details />
             <Guest />
             <Form />
+            <Itens />
         </Container>
     )
 }

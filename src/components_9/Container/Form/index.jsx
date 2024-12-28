@@ -3,9 +3,18 @@ import { Formulario } from "./style"
 function Home(){
     return(
         <Formulario>
-            <input type="text" placeholder="Tipo de imóvel"/>
-            <input type="text" placeholder="Quartos"/>
-            <input type="text" placeholder="Banheiros"/>
+            <div>
+                <input type="text"/>
+                <label htmlFor="name">Tipo de imóvel</label>
+            </div>
+            <div>
+                <input type="text"/>
+                <label htmlFor="name">Quartos</label>
+            </div>
+            <div>
+                <input type="text"/>
+                <label htmlFor="name">Banheiros</label>
+            </div>
         </Formulario>
     )
 }
