@@ -7,7 +7,7 @@ export const Formulario = styled.form`
     width: 345px;
     height: 200px;
     gap: 16px;
-    input{
+    div{
         margin-left: 0;
         width: 345px;
         height: 56px;
@@ -18,22 +18,18 @@ export const Formulario = styled.form`
         background-color: #00000029;
         border-width: 1px;
         outline: none;
-        opacity: 50%;
         font-weight: 400;
         font-size: 16px;
-        color: #000;
-    }
-    label{
-        position: absolute;
-        margin-top: -35px;
-        margin-left: 20px;
-        opacity: 50%;
-        font-size: 12px;
-        pointer-events: none;
-        transition: 0.2s ease-in-out;
         
     }
-    input:focus + label {
-        margin-top: -51px;
+    h2{
+        font-weight: 400;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.16);
+    }
+    h1{
+        font-weight: 400;
+        font-size: 16px;
+        color: #0000007A;
     }
 `

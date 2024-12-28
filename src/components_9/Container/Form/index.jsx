@@ -4,16 +4,16 @@ function Home(){
     return(
         <Formulario>
             <div>
-                <input type="text"/>
-                <label htmlFor="name">Tipo de imóvel</label>
+                <h2>Tipo de imóvel</h2>
+                <h1>Casa/Apartamento</h1>
             </div>
             <div>
-                <input type="text"/>
-                <label htmlFor="name">Quartos</label>
+                <h2>Quartos</h2>
+                <h1>3 quartos</h1>
             </div>
             <div>
-                <input type="text"/>
-                <label htmlFor="name">Banheiros</label>
+                <h2>Banheiros</h2>
+                <h1>2 banheiros</h1>
             </div>
         </Formulario>
     )
