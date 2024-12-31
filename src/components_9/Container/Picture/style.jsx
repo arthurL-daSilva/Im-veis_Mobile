@@ -28,7 +28,8 @@ export const Pic = styled.div`
         justify-content: center;
         align-items: center;
         img{
-            width: 16px;
+            margin-bottom: 2px;
+            width: 20px;
             height: 16px;
         }
         h2{

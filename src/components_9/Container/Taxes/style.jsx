@@ -24,7 +24,7 @@ export const Container = styled.div`
         width: 250px;
     }
     img{
-        width: 20px;
+        width: 21px;
         height: 20px;
     }
 `
